@@ -4,17 +4,17 @@
 ### Do not forget to adjust the following variables to your own plugin.
 
 # The plugin's identifier, has to be unique
-plugin_identifier = "enclosure"
+plugin_identifier = "Jetson enclosure"
 
 # The plugin's python package, should be "octoprint_<plugin identifier>", has to be unique
-plugin_package = "octoprint_enclosure"
+plugin_package = "Jetson_octoprint_enclosure"
 
 # The plugin's human readable name. Can be overwritten within OctoPrint's internal data via __plugin_name__ in the
 # plugin module
-plugin_name = "OctoPrint-Enclosure"
+plugin_name = "Jetson-OctoPrint-Enclosure"
 
 # The plugin's version. Can be overwritten within OctoPrint's internal data via __plugin_version__ in the plugin module
-plugin_version = "4.13.1"
+plugin_version = "0.1"
 
 # The plugin's description. Can be overwritten within OctoPrint's internal data via __plugin_description__ in the plugin
 # module
@@ -33,7 +33,7 @@ plugin_url = "https://github.com/vitormhenrique/OctoPrint-Enclosure"
 plugin_license = "AGPLv3"
 
 # Any additional requirements besides OctoPrint should be listed here
-plugin_requires = ["RPi.GPIO>=0.6.5","requests>=2.7","smbus2>=0.3.0"]
+plugin_requires = ["Jetson.GPIO>=2.0.17","requests>=2.7","smbus2>=0.3.0"]
 
 additional_setup_parameters = {}
 
